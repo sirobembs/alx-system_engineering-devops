@@ -1,2 +1,3 @@
 #!/bin/bash
-0 file -C -m SCHOOL
+0 /tmp/magic School File containing 'SCHOOL'
+!:mime text/x-SCHOOL
