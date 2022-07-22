@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#bash script that uses the until loop
+# to print a string.
+
+i=10
+until [ $i == 0 ]
+do
+	echo "Best School";
+	i=$((i-1))
+done
