@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
-# bash script that mixes the for loop and if sttement
+#Creating a script that uses an if statement
 
-for i in {1..10};
+x=1
+while [ $x -le 10 ]
 do
-    if [ "$i" == 9 ]
+    echo "Holberton School"
+    if [ $x -eq 9 ]
     then
-        echo -e "Best School\nHi"
-    
-    else
-        echo "Best School"
-    
+	echo "Hi"
     fi
-
+    ((x++))
 done
